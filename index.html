@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style/index.css">
+  <title>Compiler</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="left-container">
+      <div class="left-container-header">
+        <textarea name="text" id="text" class="text"></textarea>
+        <button class="btn" id="tokenizer">词法分析</button>
+        <button class="btn" id="parser">语法分析</button>
+        <button class="btn" id="animate">动画</button>
+      </div>
+    </div>
+    <div class="right-container">
+      <div class="item-code">
+        <canvas id="canvas" class="canvas"></canvas>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="./js/Animate.js"></script>
+<script src="./js/Compiler.js"></script>
+<script src="./js/index.js"></script>
+
+</html>
